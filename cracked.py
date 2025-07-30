@@ -24,7 +24,7 @@ def download_jq():
 def download_hwid():
     return send_file("hwid", mimetype="application/octet-stream")
 
-@app.route("/macsploit.zip")
+@app.route("/MacSploit.zip")
 def download_zip():
     return send_file("macsploit.zip", mimetype="application/zip")
 
