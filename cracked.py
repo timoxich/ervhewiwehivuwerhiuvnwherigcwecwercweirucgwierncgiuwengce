@@ -26,7 +26,7 @@ def download_hwid():
 
 @app.route("/MacSploit.zip")
 def download_zip():
-    return send_file("macsploit.zip", mimetype="application/zip")
+    return send_file("MacSploit.zip", mimetype="application/zip")
 
 @app.route("/macsploit.dylib")
 def download_dylib():
